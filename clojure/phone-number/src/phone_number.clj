@@ -24,6 +24,8 @@
         (apply str))))
 
 (something)
+(count "11234567890")
+(drop 1 (parse-number "11234567890"))
 (drop 1 (parse-number "1(503)602-0442"))
 (drop 1 (parse-number "(503)602-0442"))
 (if (= 10 (count (parse-number "(503)602-0442")))
@@ -38,18 +40,14 @@
   [num]
   (count num))
 
-;(defn number
-;  [num]
-;  (-> num
-;      number))
-
 (defn area-code
   [num]
-  (let [size (count num)]
   (->> num
-       parse-number
+       number
        (take 3)
-       (apply str))))
+       (apply str)))
+
+(area-code "11234567890")
 
 (defn pretty-print
   [])

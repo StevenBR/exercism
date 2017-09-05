@@ -1,1 +1,1 @@
-{"phone-number-test" ["pretty-print" "invalid-when-11-digits" "pretty-print-with-full-us-phone-number" "area-code-with-full-us-phone-number" "valid-when-11-digits-and-first-is-1" "invalid-when-9-digits" "pretty-print-with-dots"]}
+{"phone-number-test" ["pretty-print" "pretty-print-with-full-us-phone-number" "pretty-print-with-dots"]}

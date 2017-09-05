@@ -1,0 +1,21 @@
+(phone-number/size 
+exit
+exit
+exit
+quit
+exit
+close
+phone-number
+(phone-number
+)
+(phone-number)
+phone-number
+number
+(number)
+phone-number/number
+(phone-number/number)
+(dir phone-number)
+(first "1234")
+(drop first "1234")
+(= \1 1)
+(drop 1 "1234")

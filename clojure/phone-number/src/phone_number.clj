@@ -21,7 +21,7 @@
         (if (and (= (count n) 11) (= (first n) \1))
             (drop 1 n)
             (repeat 10 "0")))
-        (apply str)))
+        (apply str))))
 
 (something)
 (drop 1 (parse-number "1(503)602-0442"))
@@ -30,7 +30,7 @@
   (print "this was true ********")
 (if (and (= 11 (count (parse-number "1(503)602-0442"))) (= \1 (first (parse-number "1(503)602-0442"))))
   (drop 1 (something))
-  (print "you freaking suck*****")))
+  (print "you*****")))
 (number "1(503)602-0442")
 (number "(503)602-0442")
 
